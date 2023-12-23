@@ -8,9 +8,9 @@ export default function Home({}) {
         <br></br>
         <h1 className="text-5xl"></h1>
         <h1 className="text-2xl">Why do I have to send you my results?</h1>
-        <a>I'm stupid and can't figure out how to save your data.</a>
+        <a>I&apos;m stupid and can&apos;t figure out how to save your data.</a>
         <br />
-        <a>If anyone knows how I can do that safely that lmk I don't want to accidentally compromise your passwords.</a>
+        <a>If anyone knows how I can do that safely that lmk I don&apos;t want to accidentally compromise your passwords.</a>
         <br />
         <br />
         <h1 className="text-2xl">How does the point system work?</h1>
@@ -22,19 +22,19 @@ export default function Home({}) {
         <br />
         <br />
         <h1 className="text-2xl">Can I really get any skin?</h1>
-        <a>As long as its reasonable yk, if you don't play league anymore we can figure something out</a>
+        <a>As long as its reasonable yk, if you don&apos;t play league anymore we can figure something out</a>
         <br />
         <br />
         <h1 className="text-2xl">Why am I not on here?</h1>
         <a>It takes forever to process one person, fill out the form next time please</a>
         <br />
         <br />
-        <h1 className="text-2xl">I don't like my photo</h1>
+        <h1 className="text-2xl">I don&apos;t like my photo</h1>
         <a>Send me a message and I can change it</a>
         <br />
         <br />
         <h1 className="text-2xl">When is the tournament?</h1>
-        <a>Planning for the 23rd, but if not enough people can make it I'll push it back.</a>
+        <a>Planning for the 23rd, but if not enough people can make it I&apos;ll push it back.</a>
         <br />
         <br />
         <a href="/..">Return to Home</a>
@@ -65,9 +65,9 @@ export default function Home({}) {
             1. Find Your Baseline
 
             Your baseline score is the score you would receive if you showed up at the exam site today. Before you start studying for the MCAT in earnest, take a full-length practice test and mimic the actual testing environment to the best of your ability. The results of this first practice test will help guide your prep by showing you which areas you need to focus on the most.
-            2. Don't Sacrifice Practice for Content Review
+            2. Don&apos;t Sacrifice Practice for Content Review
 
-            Here's what the MCAT really tests:
+            Here&apos;s what the MCAT really tests:
                 your ability to apply basic knowledge to different, possibly new, situations
                 your ability to reason out and evaluate arguments
 
