@@ -18,7 +18,7 @@ export default function Home({}) {
         <br />
         <br />
         <h1 className="text-2xl">When will results be out?</h1>
-        <a>Hopefully by December 31st. Might be delayed 🙇‍♀️</a>
+        <a>Hopefully by December 31st. Might be delayed</a>
         <br />
         <br />
         <h1 className="text-2xl">Can I really get any skin?</h1>

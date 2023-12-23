@@ -250,7 +250,7 @@ export default function Home({}) {
         </div>
         <br />
         <div className='flex justify-center items-center flex-col space-y-2'>
-        <a className='text-2xl'>Thanks for participating this year 🐰</a>
+        <a className='text-2xl'>Thanks for participating this year</a>
         <br />
         <br />
         <button className="btn btn-accent" onClick={copyToClipboard}>Copy Results to Clipboard</button>
