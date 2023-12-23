@@ -174,14 +174,14 @@ export default function Home({}) {
         <h1 className={"text-3xl"}>CRYSTAL BALL</h1>
         <a href="/notes" className="text-xl">FAQ</a>
         </div>
-        <a>Note - Your progress doesn't save so don't leave this tab!</a>
+        <a>Note - Your progress doesn&apos;t save so don&apos;t leave this tab!</a>
         <br />
         <a>Whoever gets the most amount of points gets a skin or something equivalent, check FAQ for more info</a>
         <br />
-        <a>There's a button at the bottom to copy your results to your clipboard, please paste it in discord DMS ty</a>
+        <a>There&apos;s a button at the bottom to copy your results to your clipboard, please paste it in discord DMS ty</a>
         <br />
         <br />
-        <a>There's also an ARENA tournament on the 23rd around 9pm for another skin</a>
+        <a>There&apos;s also an ARENA tournament on the 23rd around 9pm for another skin</a>
         <br />
         <a>This could be pushed back if people are busy though (need 8 people)</a>
 
@@ -226,7 +226,7 @@ export default function Home({}) {
         <EventCard labelText="Chris sent the most amount of pings in a single game, how many did he send?" choicesArray={['<50', '50-99', '100-149', '150-199', '200-249', '>250']} setChoice={changeMostPing} choice={mostPing}/>
         <EventCard labelText="Wukong is the only champ that is not stored in the database as it's own name, what is it instead?" choicesArray={['MonkeyKing', 'Monke', 'SunWukong', 'Harambe']} setChoice={changeWukong} choice={wukong}/>
         </div>
-        <h1 className="text-2xl">VOTING - Doesn't count for points</h1>
+        <h1 className="text-2xl">VOTING - Doesn&apos;t count for points</h1>
         <div className="flex flex-row space-x-4">
         <VotingCard labelText="Who would you honor irl?" choicesArray={['Andrew','Caleb', 'Chris', 'Elijah', 'Eric', 'Hasuki', 'Jacob', 'Kendrick', 'Lingesh', 'Matthew', 'Sean', 'Tony', 'Parsa']} setChoice={changeHonor} choice={honor}/>
         <VotingCard labelText="Who deserves to get banned?" choicesArray={['Andrew','Caleb', 'Chris', 'Elijah', 'Eric', 'Hasuki', 'Jacob', 'Kendrick', 'Lingesh', 'Matthew', 'Sean', 'Tony', 'Parsa']} setChoice={changeBan} choice={ban}/>
