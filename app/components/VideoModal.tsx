@@ -28,8 +28,8 @@ const VideoModal = ({ choice, labelText, setChoice, choicesArray, nameArray }:
         <RadioVideo choice={choice} labelText={choicesArray[1]} setChoice={setChoice} name={nameArray[1]}/>
         <RadioVideo choice={choice} labelText={choicesArray[2]} setChoice={setChoice} name={nameArray[2]}/>
         <RadioVideo choice={choice} labelText={choicesArray[3]} setChoice={setChoice} name={nameArray[3]}/>
-        <RadioVideo choice={choice} labelText={choicesArray[2]} setChoice={setChoice} name={nameArray[4]}/>
-        <RadioVideo choice={choice} labelText={choicesArray[3]} setChoice={setChoice} name={nameArray[5]}/>
+        <RadioVideo choice={choice} labelText={choicesArray[4]} setChoice={setChoice} name={nameArray[4]}/>
+        <RadioVideo choice={choice} labelText={choicesArray[5]} setChoice={setChoice} name={nameArray[5]}/>
     </div>
     <label className="modal-backdrop" 
         htmlFor={labelText}
