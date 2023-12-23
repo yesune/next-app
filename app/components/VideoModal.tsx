@@ -2,16 +2,18 @@
 import React from 'react'
 import Checkbox from './Checkbox';
 import Radio from './Radio';
+import RadioVideo from './RadioVideo';
 
 // we should also code it so that we can pass in an input, and have those be the options
 
 // handle the datasaving in the onclick section, have each radio button return a value when they are clicked
 
-const ModalObj = ({ choice, labelText, setChoice, choicesArray }:
+const VideoModal = ({ choice, labelText, setChoice, choicesArray, nameArray }:
   { choice: string,
     labelText: string,
    setChoice: (newChoice: string) => void,
-    choicesArray:string[]}) => {
+    choicesArray:string[]
+    nameArray:string[]}) => {
  return (
     <div>
         {/* The button to open modal */}
@@ -22,10 +24,12 @@ const ModalObj = ({ choice, labelText, setChoice, choicesArray }:
     <div className="modal" role="dialog">
     <div className="modal-box  w-full h-full">
         <h3 className="text-lg font-bold">{ labelText }</h3>
-        <Radio choice={choice} labelText={choicesArray[0]} setChoice={setChoice}/>
-        <Radio choice={choice} labelText={choicesArray[1]} setChoice={setChoice}/>
-        <Radio choice={choice} labelText={choicesArray[2]} setChoice={setChoice}/>
-        <Radio choice={choice} labelText={choicesArray[3]} setChoice={setChoice}/>
+        <RadioVideo choice={choice} labelText={choicesArray[0]} setChoice={setChoice} name={nameArray[0]}/>
+        <RadioVideo choice={choice} labelText={choicesArray[1]} setChoice={setChoice} name={nameArray[1]}/>
+        <RadioVideo choice={choice} labelText={choicesArray[2]} setChoice={setChoice} name={nameArray[2]}/>
+        <RadioVideo choice={choice} labelText={choicesArray[3]} setChoice={setChoice} name={nameArray[3]}/>
+        <RadioVideo choice={choice} labelText={choicesArray[2]} setChoice={setChoice} name={nameArray[4]}/>
+        <RadioVideo choice={choice} labelText={choicesArray[3]} setChoice={setChoice} name={nameArray[5]}/>
     </div>
     <label className="modal-backdrop" 
         htmlFor={labelText}
@@ -36,4 +40,4 @@ const ModalObj = ({ choice, labelText, setChoice, choicesArray }:
   )
 };
 
-export default ModalObj;
+export default VideoModal;

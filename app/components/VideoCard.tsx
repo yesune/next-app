@@ -1,15 +1,16 @@
 'use client';
 import React, {useState} from 'react';
 import ModalObj from './ModalObj';
+import VideoModal from './VideoModal';
 //https://upload.wikimedia.org/wikipedia/en/5/5f/LOL_Worlds_logo.svg
 
 //<h2 className="card-title">Shoes!</h2>
 
 // NOTE! THE IMAGE SHOULDN'T BE SHOWN UNTIL YOU MAKE A SELECTION
 
-const EventCard = ({labelText, choicesArray, setChoice, choice}:
-  {labelText:string, choicesArray:string[], setChoice: (newChoice: string) => void, choice:string}) => {
-
+const VideoCard = ({labelText, choicesArray, nameArray, setChoice, choice}:
+    {labelText:string, choicesArray:string[], nameArray:string[],
+        setChoice: (newChoice: string) => void, choice:string}) => {
 return (
 <div className="card w-72 shadow-xl bg-dark-champ bg-no-repeat bg-center border border-bordercolor">
 <figure style={{ opacity: choice === "Not Selected" ? 0 : 1 }}>
@@ -19,11 +20,11 @@ return (
   <div className="card-body">
     <p className="text-center">{labelText}</p>
     <div className="card-actions justify-center">
-    <ModalObj choice={choice} setChoice={setChoice} 
-                labelText={labelText} choicesArray={choicesArray}/>
+    <VideoModal choice={choice} setChoice={setChoice} 
+                labelText={labelText} choicesArray={choicesArray} nameArray={nameArray}/>
     </div>
   </div>
 </div>
 )};
 
-export default EventCard;
+export default VideoCard;
